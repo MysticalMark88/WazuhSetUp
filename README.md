@@ -22,20 +22,20 @@ Once install is complete we are provided with credentials, we will note these th
 <img src="https://i.imgur.com/5D2aJAm.png" height="80%" width="80%" alt="Finish Install"/>
 <br />
 <br />
-On our local machine we will enter the ip of the server in our borwser to reach the login page for our fresh install of Wazuh: <br/>
+On our local machine we will enter the ip of the server in our browser to reach the login page for our fresh install of Wazuh: <br/>
 <img src="https://i.imgur.com/QBPTyn4.png" height="80%" width="80%" alt="Connect to Log In screen"/>
 <br />
 <br />
-Next, we will check the default interface we want to monitor on to update the config file. Note the interface is eth0:  <br/>
-<img src="https://i.imgur.com/FfyYKfA.png" height="80%" width="80%" alt="Check Default Interface"/>
+Once successfully logged in we can see the main page of Wazuh and we can also see that we need to add our agents:  <br/>
+<img src="https://i.imgur.com/NlEKozR.png" height="80%" width="80%" alt="Wazuh home page"/>
 <br />
 <br />
-We will then open the configuration file with nano to edit the configuration:  <br/>
-<img src="https://i.imgur.com/0gW5qQ5.png" height="80%" width="80%" alt="Open Config File"/>
+We will then navigate to the page to add an agent and start entering the information for our first ubuntu server:  <br/>
+<img src="https://i.imgur.com/Im2ohLo.png" height="80%" width="80%" alt="Set up first agent"/>
 <br />
 <br />
-Next, we will edit the interface to match our system, in this case it is eth0:  <br/>
-<img src="https://i.imgur.com/Dh86zWI.png" height="80%" width="80%" alt="Edit interface in config file"/>
+Next, we are given commands we can use on our server endpoint to set up and install the Wazuh Agent:  <br/>
+<img src="https://i.imgur.com/HpSzCiu.png" height="80%" width="80%" alt="Set up first agent server command"/>
 <br />
 <br />
 The rule set will then need to be updated so we have updated rules for Suricata to use to monitor the network:  <br/>
