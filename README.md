@@ -54,12 +54,12 @@ Next, we can navigate to the security events and see that the agent is already r
 <img src="https://i.imgur.com/g1ChHy7.png" height="80%" width="80%" alt="View alerts on first agent"/>
 <br />
 <br />
-Next, we will want to test Suricata to make sure it is detecting malicious traffic:  <br/>
-<img src="https://i.imgur.com/zf1B8tF.png" height="80%" width="80%" alt="Test Suricata"/>
+Now, we will need to open the configuration file for the Wazuh agent on this endpoint so we can set up suricata:  <br/>
+<img src="https://i.imgur.com/4Us9fbT.png" height="80%" width="80%" alt="Edit config on first agent"/>
 <br />
 <br />
-We will now check Suricata's fast.log file to see if it detected the malicious test, we can see that it was successfull. Suricata is installed and running successfully!  <br/>
-<img src="https://i.imgur.com/mXPec1E.png" height="80%" width="80%" alt="Test Suricata"/>
+We will edit the configuration file adding the following block so Wazuh can access suricata's logs:  <br/>
+<img src="https://i.imgur.com/uVtj1hp.png" height="80%" width="80%" alt="Edit Config"/>
 </p>
 
 <!--
