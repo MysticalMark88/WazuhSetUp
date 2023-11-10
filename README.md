@@ -68,6 +68,20 @@ After editing the configuration file we will need to resart the agent service fo
 <br />
 We can now see suricata events in Wazuh:  <br/>
 <img src="https://i.imgur.com/VWzSazT.png" height="80%" width="80%" alt="View Suricata Events"/>
+<br />
+<br />
+Next, we will deploy our second endpoint agent using the previous steps:  <br/>
+<img src="https://i.imgur.com/CJgn0st.png" height="80%" width="80%" alt="Set up second agent"/>
+<br />
+<br />
+We can now see that we have two active agents:  <br/>
+<img src="https://i.imgur.com/jPvFRV3.png" height="80%" width="80%" alt="View all agents"/>
+<br />
+<br />
+We can also view the security event dashboard and list security events for our second agent:  <br/>
+<img src="https://i.imgur.com/yMm5BP5.png" height="80%" width="80%" alt="View second agent security dashboard"/>
+<br />
+<img src="https://i.imgur.com/yqPZwUn.png" height="80%" width="80%" alt="View second agent security dashboard"/>
 </p>
 
 <!--
