@@ -78,10 +78,14 @@ We can now see that we have two active agents:  <br/>
 <img src="https://i.imgur.com/jPvFRV3.png" height="80%" width="80%" alt="View all agents"/>
 <br />
 <br />
-We can also view the security event dashboard and list security events for our second agent:  <br/>
+We can also view the security event dashboard and list security event logs for our second agent:  <br/>
 <img src="https://i.imgur.com/yMm5BP5.png" height="80%" width="80%" alt="View second agent security dashboard"/>
 <br />
 <img src="https://i.imgur.com/yqPZwUn.png" height="80%" width="80%" alt="View second agent security dashboard"/>
+<br />
+<br />
+We have successfully installed and set up Wazuh with two server endpoints as agents!  <br/>
+<img src="https://i.imgur.com/KhbQfvm.png" height="80%" width="80%" alt="Wazuh home after agent set up"/>
 </p>
 
 <!--
