@@ -60,6 +60,14 @@ Now, we will need to open the configuration file for the Wazuh agent on this end
 <br />
 We will edit the configuration file adding the following block so Wazuh can access suricata's logs:  <br/>
 <img src="https://i.imgur.com/uVtj1hp.png" height="80%" width="80%" alt="Edit Config"/>
+<br />
+<br />
+After editing the configuration file we will need to resart the agent service for the changes to take effect:  <br/>
+<img src="https://i.imgur.com/qX19a98.png" height="80%" width="80%" alt="Restart agent service"/>
+<br />
+<br />
+We can now see suricata events in Wazuh:  <br/>
+<img src="https://i.imgur.com/VWzSazT.png" height="80%" width="80%" alt="View Suricata Events"/>
 </p>
 
 <!--
