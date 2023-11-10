@@ -38,20 +38,20 @@ Next, we are given commands we can use on our server endpoint to set up and inst
 <img src="https://i.imgur.com/HpSzCiu.png" height="80%" width="80%" alt="Set up first agent server command"/>
 <br />
 <br />
-The rule set will then need to be updated so we have updated rules for Suricata to use to monitor the network:  <br/>
-<img src="https://i.imgur.com/YMIuuYE.png" height="80%" width="80%" alt="Update Suricata Rules"/>
+We will then SSH into our first server endpoint and run the command to deploy the Wazuh agent:  <br/>
+<img src="https://i.imgur.com/O6Sujnr.png" height="80%" width="80%" alt="Deploy first agent"/>
 <br />
 <br />
-Since updating the config and rules we will test the configuration and once successfull will then start the Suricata service:  <br/>
-<img src="https://i.imgur.com/XDrkJK6.png" height="80%" width="80%" alt="Test and start Suricata"/>
+After the install completes we then need to enable and start the Wazuh agent service using systemctl:  <br/>
+<img src="https://i.imgur.com/CdmLcZq.png" height="80%" width="80%" alt="Enable and Start First Agent"/>
 <br />
 <br />
-We will then check the status of the service to make sure it has started and running successfully:  <br/>
-<img src="https://i.imgur.com/97rtZ9A.png" height="80%" width="80%" alt="Check status of Suricata"/>
+We can now see in our browser that Wazuh is showing one connected agent:  <br/>
+<img src="https://i.imgur.com/ZpBNt3v.png" height="80%" width="80%" alt="Agent Connected"/>
 <br />
 <br />
-We will also check the Suricata log file to confirm that it has successfully started:  <br/>
-<img src="https://i.imgur.com/iWLsXPT.png" height="80%" width="80%" alt="Check status of Suricata"/>
+Next, we can navigate to the security events and see that the agent is already reporting alerts from system logs:  <br/>
+<img src="https://i.imgur.com/g1ChHy7.png" height="80%" width="80%" alt="View alerts on first agent"/>
 <br />
 <br />
 Next, we will want to test Suricata to make sure it is detecting malicious traffic:  <br/>
