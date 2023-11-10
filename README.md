@@ -18,12 +18,12 @@ We will be using the installer provided by the Wazuh quick start documentation t
 <img src="https://i.imgur.com/w0g6Kph.png" height="80%" width="80%" alt="Install Wazuh"/>
 <br />
 <br />
-We will need to run apt-update and then install suricata:  <br/>
-<img src="https://i.imgur.com/FN4hiJQ.png" height="80%" width="80%" alt="Update and Install"/>
+Once install is complete we are provided with credentials, we will note these then proceed to access Wazuh from our browser:  <br/>
+<img src="https://i.imgur.com/5D2aJAm.png" height="80%" width="80%" alt="Finish Install"/>
 <br />
 <br />
-Once the install is complete we will enable Suricata using systemctl then stop the service temporarily so we can configure it: <br/>
-<img src="https://i.imgur.com/uynGLFe.png" height="80%" width="80%" alt="Enable Suricata"/>
+On our local machine we will enter the ip of the server in our borwser to reach the login page for our fresh install of Wazuh: <br/>
+<img src="https://i.imgur.com/QBPTyn4.png" height="80%" width="80%" alt="Connect to Log In screen"/>
 <br />
 <br />
 Next, we will check the default interface we want to monitor on to update the config file. Note the interface is eth0:  <br/>
